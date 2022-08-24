@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Grand;
+  src: url(../Fonts/Grandesign\ Neue\ Roman\ Bold.ttf);
+}
+
+@font-face {
+  font-family: Grand-italic;
+  src: url(../Fonts/Grandesign\ Neue\ Roman\ Italic.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wraper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mogo {
+  width: 50%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+    to bottom,
+    #ff8985,
+    #ff9b7e,
+    #ffaf7a,
+    #ffc37b,
+    #ffd782
+  );
+}
+
+.archi {
+  height: 100vh;
+  width: 50%;
+  background: linear-gradient(225deg, rgb(203, 69, 162), rgb(0, 119, 191));
+}
+
+.logo-text {
+  display: block;
+  font-family: "Montserrat";
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.Next {
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 500px;
+}
+
+.h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: #f9fffd;
+  font-size: 30px;
+  font-family: Grand;
+}
+
+.h2 {
+  text-align: center;
+  color: #f9fffd;
+  text-transform: uppercase;
+  font-family: Grand-italic;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9fffd;
+  font-size: 16px;
+  font-family: Grand-italic;
+}
+
+.button-1 {
+  display: block;
+  height: 40px;
+  width: 150px;
+  margin: auto;
+  border: 2px solid #f9fffd;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 20px;
+  color: #f9fffd;
+  font-size: 20px;
+  font-family: Grand-italic;
+}
+
+.button-1:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+.button-2 {
+  display: block;
+  height: 45px;
+  width: 160px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+  color: #cfcfcf;
+  border: 1px solid #cfcfcf;
+  border-radius: 25px;
+}
+
+.button-2:hover {
+  border: 0;
+  color: black;
+  background-color: #ffffff;
+}
